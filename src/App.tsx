@@ -1,8 +1,12 @@
 import React from 'react';
+import { Header } from './components/Header';
+import './styles/global.scss'
 
 function App() {
   return (
-    <h1>Hello Word</h1>
+   <>
+    <Header/>
+   </>
   );
 }
 
