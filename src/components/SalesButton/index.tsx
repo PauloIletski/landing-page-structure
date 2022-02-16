@@ -1,6 +1,8 @@
+import styles from './styles.module.scss'
+
 export function SalesButton(){
     return (
-        <button>
+        <button className={styles.buyButton}>
             Comprar
         </button>
     )
