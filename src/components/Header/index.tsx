@@ -4,8 +4,9 @@ import styles from './styles.module.scss'
 export function Header(){
     return(
         <header className={styles.headerContainer}>
-            <img src='' alt='sales.logo'/>
-            <SalesButton/>
+            <div className={styles.logoContainer}>
+                <img src='/images/Logo.png' alt='sales.logo'/>
+            </div>         
         </header>
     )
 }
