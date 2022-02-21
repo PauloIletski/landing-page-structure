@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 export function Description() {
   return (
-    <div className={styles.descriptionContainer}>
+    <section className={styles.descriptionContainer}>
       <div className={styles.overlayDescription}></div>
       <div className={styles.informationContainer}>
         <h1>
@@ -27,6 +27,6 @@ export function Description() {
           allowFullScreen
         ></iframe>
       </div>
-    </div>
+    </section>
   );
 }
