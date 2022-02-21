@@ -1,0 +1,11 @@
+.buyButton{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: var(--white);
+    color: var(--white);
+    background-color: var(--light-gray);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 5px 0px 0px var(--water-gray);
+    padding: 25px 90px 25px 90px;
+}

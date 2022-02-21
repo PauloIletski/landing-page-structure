@@ -1,0 +1,43 @@
+.descriptionContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background-color:var(--light-pink);  
+
+
+  
+  .informationContainer {
+      padding:5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   
+      h1 {
+      color: var(--white);
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 1.2em;
+      margin-bottom: 2rem;
+
+      strong {
+        color: var(--enphase-color);
+      }
+    }
+
+    p {
+      color: var(--enphase-color);
+      margin-bottom:3rem;
+    }
+  }
+
+  .videoContainer{
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      
+      iframe{
+        border: 0.2rem solid var(--white);
+        border-radius: 1rem;
+      }
+  }
+}

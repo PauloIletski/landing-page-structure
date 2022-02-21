@@ -1,0 +1,11 @@
+.headerContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--light-pink);
+
+    .logoContainer{
+        padding: 1rem;       
+    }
+
+}
