@@ -6,16 +6,20 @@
 .introductionContainer{
     background-color: var(--white);
     margin-top: -10px;
-    
+   
     display: flex;
     flex-direction: row;
-    padding:1rem 10rem;
+    padding:2rem 10rem 5rem ;
+
 
    
 
     .introductionLayout{
         display: flex;
         flex-direction: row;
+        max-width: 1140px;
+        margin:0 auto ;
+        align-self: center;
         
         .textContainer{
             display: flex;
