@@ -1,4 +1,3 @@
-import { SalesButton } from '../SalesButton'
 import styles from './styles.module.scss'
 
 export function Header(){
